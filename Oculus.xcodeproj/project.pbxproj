@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		574F6ABE20D94F3600DA9098 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6ABD20D94F3600DA9098 /* main.m */; };
+		574F6AC120D94F3600DA9098 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6AC020D94F3600DA9098 /* AppDelegate.m */; };
+		574F6AC420D94F3600DA9098 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6AC320D94F3600DA9098 /* ViewController.m */; };
+		574F6AC720D94F3600DA9098 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 574F6AC520D94F3600DA9098 /* Main.storyboard */; };
+		574F6ACA20D94F3600DA9098 /* Oculus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 574F6AC820D94F3600DA9098 /* Oculus.xcdatamodeld */; };
+		574F6ACC20D94F3600DA9098 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 574F6ACB20D94F3600DA9098 /* Assets.xcassets */; };
+		574F6ACF20D94F3600DA9098 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 574F6ACD20D94F3600DA9098 /* LaunchScreen.storyboard */; };
+		574F6ADA20D94F3700DA9098 /* OculusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6AD920D94F3700DA9098 /* OculusTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		574F6AD620D94F3700DA9098 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 574F6AB120D94F3500DA9098 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 574F6AB820D94F3500DA9098;
+			remoteInfo = Oculus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		574F6AB920D94F3600DA9098 /* Oculus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oculus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		574F6ABD20D94F3600DA9098 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		574F6ABF20D94F3600DA9098 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		574F6AC020D94F3600DA9098 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		574F6AC220D94F3600DA9098 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		574F6AC320D94F3600DA9098 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		574F6AC620D94F3600DA9098 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		574F6AC920D94F3600DA9098 /* Oculus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Oculus.xcdatamodel; sourceTree = "<group>"; };
+		574F6ACB20D94F3600DA9098 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		574F6ACE20D94F3600DA9098 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		574F6AD020D94F3700DA9098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		574F6AD520D94F3700DA9098 /* OculusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OculusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		574F6AD920D94F3700DA9098 /* OculusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OculusTests.m; sourceTree = "<group>"; };
+		574F6ADB20D94F3700DA9098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		574F6AB620D94F3500DA9098 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		574F6AD220D94F3700DA9098 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		574F6AB020D94F3500DA9098 = {
+			isa = PBXGroup;
+			children = (
+				574F6ABB20D94F3600DA9098 /* Oculus */,
+				574F6AD820D94F3700DA9098 /* OculusTests */,
+				574F6ABA20D94F3600DA9098 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		574F6ABA20D94F3600DA9098 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				574F6AB920D94F3600DA9098 /* Oculus.app */,
+				574F6AD520D94F3700DA9098 /* OculusTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		574F6ABB20D94F3600DA9098 /* Oculus */ = {
+			isa = PBXGroup;
+			children = (
+				574F6ABF20D94F3600DA9098 /* AppDelegate.h */,
+				574F6AC020D94F3600DA9098 /* AppDelegate.m */,
+				574F6AC220D94F3600DA9098 /* ViewController.h */,
+				574F6AC320D94F3600DA9098 /* ViewController.m */,
+				574F6AC520D94F3600DA9098 /* Main.storyboard */,
+				574F6ACB20D94F3600DA9098 /* Assets.xcassets */,
+				574F6ACD20D94F3600DA9098 /* LaunchScreen.storyboard */,
+				574F6AD020D94F3700DA9098 /* Info.plist */,
+				574F6AC820D94F3600DA9098 /* Oculus.xcdatamodeld */,
+				574F6ABC20D94F3600DA9098 /* Supporting Files */,
+			);
+			path = Oculus;
+			sourceTree = "<group>";
+		};
+		574F6ABC20D94F3600DA9098 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				574F6ABD20D94F3600DA9098 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		574F6AD820D94F3700DA9098 /* OculusTests */ = {
+			isa = PBXGroup;
+			children = (
+				574F6AD920D94F3700DA9098 /* OculusTests.m */,
+				574F6ADB20D94F3700DA9098 /* Info.plist */,
+			);
+			path = OculusTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		574F6AB820D94F3500DA9098 /* Oculus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 574F6ADE20D94F3700DA9098 /* Build configuration list for PBXNativeTarget "Oculus" */;
+			buildPhases = (
+				574F6AB520D94F3500DA9098 /* Sources */,
+				574F6AB620D94F3500DA9098 /* Frameworks */,
+				574F6AB720D94F3500DA9098 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Oculus;
+			productName = Oculus;
+			productReference = 574F6AB920D94F3600DA9098 /* Oculus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		574F6AD420D94F3700DA9098 /* OculusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 574F6AE120D94F3700DA9098 /* Build configuration list for PBXNativeTarget "OculusTests" */;
+			buildPhases = (
+				574F6AD120D94F3700DA9098 /* Sources */,
+				574F6AD220D94F3700DA9098 /* Frameworks */,
+				574F6AD320D94F3700DA9098 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				574F6AD720D94F3700DA9098 /* PBXTargetDependency */,
+			);
+			name = OculusTests;
+			productName = OculusTests;
+			productReference = 574F6AD520D94F3700DA9098 /* OculusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		574F6AB120D94F3500DA9098 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = SynergyLabs;
+				TargetAttributes = {
+					574F6AB820D94F3500DA9098 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3W4TPJ555T;
+						ProvisioningStyle = Automatic;
+					};
+					574F6AD420D94F3700DA9098 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3W4TPJ555T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 574F6AB820D94F3500DA9098;
+					};
+				};
+			};
+			buildConfigurationList = 574F6AB420D94F3500DA9098 /* Build configuration list for PBXProject "Oculus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 574F6AB020D94F3500DA9098;
+			productRefGroup = 574F6ABA20D94F3600DA9098 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				574F6AB820D94F3500DA9098 /* Oculus */,
+				574F6AD420D94F3700DA9098 /* OculusTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		574F6AB720D94F3500DA9098 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				574F6ACF20D94F3600DA9098 /* LaunchScreen.storyboard in Resources */,
+				574F6ACC20D94F3600DA9098 /* Assets.xcassets in Resources */,
+				574F6AC720D94F3600DA9098 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		574F6AD320D94F3700DA9098 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		574F6AB520D94F3500DA9098 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				574F6AC420D94F3600DA9098 /* ViewController.m in Sources */,
+				574F6AC120D94F3600DA9098 /* AppDelegate.m in Sources */,
+				574F6ACA20D94F3600DA9098 /* Oculus.xcdatamodeld in Sources */,
+				574F6ABE20D94F3600DA9098 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		574F6AD120D94F3700DA9098 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				574F6ADA20D94F3700DA9098 /* OculusTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		574F6AD720D94F3700DA9098 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 574F6AB820D94F3500DA9098 /* Oculus */;
+			targetProxy = 574F6AD620D94F3700DA9098 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		574F6AC520D94F3600DA9098 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				574F6AC620D94F3600DA9098 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		574F6ACD20D94F3600DA9098 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				574F6ACE20D94F3600DA9098 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		574F6ADC20D94F3700DA9098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		574F6ADD20D94F3700DA9098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		574F6ADF20D94F3700DA9098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3W4TPJ555T;
+				INFOPLIST_FILE = Oculus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SynergyLabs.com.Oculus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		574F6AE020D94F3700DA9098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3W4TPJ555T;
+				INFOPLIST_FILE = Oculus/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SynergyLabs.com.Oculus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		574F6AE220D94F3700DA9098 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3W4TPJ555T;
+				INFOPLIST_FILE = OculusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SynergyLabs.com.OculusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Oculus.app/Oculus";
+			};
+			name = Debug;
+		};
+		574F6AE320D94F3700DA9098 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3W4TPJ555T;
+				INFOPLIST_FILE = OculusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SynergyLabs.com.OculusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Oculus.app/Oculus";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		574F6AB420D94F3500DA9098 /* Build configuration list for PBXProject "Oculus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				574F6ADC20D94F3700DA9098 /* Debug */,
+				574F6ADD20D94F3700DA9098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		574F6ADE20D94F3700DA9098 /* Build configuration list for PBXNativeTarget "Oculus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				574F6ADF20D94F3700DA9098 /* Debug */,
+				574F6AE020D94F3700DA9098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		574F6AE120D94F3700DA9098 /* Build configuration list for PBXNativeTarget "OculusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				574F6AE220D94F3700DA9098 /* Debug */,
+				574F6AE320D94F3700DA9098 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		574F6AC820D94F3600DA9098 /* Oculus.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				574F6AC920D94F3600DA9098 /* Oculus.xcdatamodel */,
+			);
+			currentVersion = 574F6AC920D94F3600DA9098 /* Oculus.xcdatamodel */;
+			path = Oculus.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 574F6AB120D94F3500DA9098 /* Project object */;
+}
