@@ -1,7 +1,7 @@
 # Oculus Companion App Demo
 This is a sample project created to demonstrate some core competencies and design principles for a Oculus iOS Engineer position.
 
-![alt text](https://github.com/jwells18/Oculus/blob/master/OculusPreviewGIF.gif)
+![alt text](https://github.com/jwells18/Oculus-Companion-App-Demo/blob/master/Oculus/OculusPreviewGIF.gif)
 
 # Additional Notes
 
