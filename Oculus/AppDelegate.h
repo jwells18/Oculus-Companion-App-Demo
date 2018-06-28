@@ -12,9 +12,11 @@
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+- (void) setupTabVC;
+- (void) setupWelcomeVC;
 
+//Core Data
 @property (readonly, strong) NSPersistentContainer *persistentContainer;
-
 - (void)saveContext;
 
 

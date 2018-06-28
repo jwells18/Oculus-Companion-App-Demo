@@ -7,14 +7,88 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3283F7C632A7644A4894D231 /* libPods-Oculus.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06FCF3BF57303F7B276D0CB1 /* libPods-Oculus.a */; };
 		574F6ABE20D94F3600DA9098 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6ABD20D94F3600DA9098 /* main.m */; };
 		574F6AC120D94F3600DA9098 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6AC020D94F3600DA9098 /* AppDelegate.m */; };
-		574F6AC420D94F3600DA9098 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6AC320D94F3600DA9098 /* ViewController.m */; };
+		574F6AC420D94F3600DA9098 /* StoreController.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6AC320D94F3600DA9098 /* StoreController.m */; };
 		574F6AC720D94F3600DA9098 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 574F6AC520D94F3600DA9098 /* Main.storyboard */; };
 		574F6ACA20D94F3600DA9098 /* Oculus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 574F6AC820D94F3600DA9098 /* Oculus.xcdatamodeld */; };
 		574F6ACC20D94F3600DA9098 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 574F6ACB20D94F3600DA9098 /* Assets.xcassets */; };
 		574F6ACF20D94F3600DA9098 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 574F6ACD20D94F3600DA9098 /* LaunchScreen.storyboard */; };
 		574F6ADA20D94F3700DA9098 /* OculusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6AD920D94F3700DA9098 /* OculusTests.m */; };
+		574F6AED20D9533D00DA9098 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6AEC20D9533D00DA9098 /* NavigationController.m */; };
+		574F6AF020D9552800DA9098 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 574F6AEF20D9552800DA9098 /* Localizable.strings */; };
+		574F6AF520D95BE400DA9098 /* NotificationsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6AF420D95BE400DA9098 /* NotificationsController.m */; };
+		574F6AFC20D95F4400DA9098 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6AFB20D95F4400DA9098 /* TabBarController.m */; };
+		574F6AFF20D9626C00DA9098 /* WelcomeToOculusController.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6AFE20D9626C00DA9098 /* WelcomeToOculusController.m */; };
+		574F6B0920D96BFC00DA9098 /* StoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6B0820D96BFC00DA9098 /* StoreManager.m */; };
+		574F6B0C20D974D200DA9098 /* EventsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6B0B20D974D200DA9098 /* EventsController.m */; };
+		574F6B0F20D974E500DA9098 /* FriendsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6B0E20D974E500DA9098 /* FriendsController.m */; };
+		574F6B1220D9750000DA9098 /* SettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6B1120D9750000DA9098 /* SettingsController.m */; };
+		574F6B1920D9763700DA9098 /* SettingsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6B1820D9763700DA9098 /* SettingsManager.m */; };
+		574F6B1C20D9D8A600DA9098 /* StoreFeaturedCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6B1B20D9D8A600DA9098 /* StoreFeaturedCell.m */; };
+		574F6B1F20D9D8CA00DA9098 /* StoreDefaultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6B1E20D9D8CA00DA9098 /* StoreDefaultCell.m */; };
+		574F6B2220D9E04300DA9098 /* StoreDefaultCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6B2120D9E04300DA9098 /* StoreDefaultCollectionCell.m */; };
+		574F6B2520D9E42700DA9098 /* OCApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6B2420D9E42700DA9098 /* OCApp.m */; };
+		574F6B2A20DA9A0000DA9098 /* StoreFeaturedCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6B2920DA9A0000DA9098 /* StoreFeaturedCollectionCell.m */; };
+		574F6B2E20DA9DC200DA9098 /* EventsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6B2D20DA9DC200DA9098 /* EventsCell.m */; };
+		574F6B3120DAB4BC00DA9098 /* OCEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6B3020DAB4BC00DA9098 /* OCEvent.m */; };
+		574F6B3520DAC22F00DA9098 /* FriendsTableHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6B3420DAC22F00DA9098 /* FriendsTableHeader.m */; };
+		574F6B3820DAC24D00DA9098 /* FriendsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6B3720DAC24D00DA9098 /* FriendsCell.m */; };
+		574F6B3B20DAC90C00DA9098 /* OCUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6B3A20DAC90C00DA9098 /* OCUser.m */; };
+		574F6B3F20DACFB500DA9098 /* SettingsTableHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6B3E20DACFB500DA9098 /* SettingsTableHeader.m */; };
+		574F6B4220DAD55900DA9098 /* SettingsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6B4120DAD55900DA9098 /* SettingsCell.m */; };
+		574F6B4520DAE1D700DA9098 /* SettingsTableFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6B4420DAE1D700DA9098 /* SettingsTableFooter.m */; };
+		574F6B4820DAF24200DA9098 /* OCTableSectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6B4720DAF24200DA9098 /* OCTableSectionHeader.m */; };
+		574F6B4D20DAFA4A00DA9098 /* NotificationsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6B4C20DAFA4A00DA9098 /* NotificationsCell.m */; };
+		574F6B5020DAFAB000DA9098 /* OCNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6B4F20DAFAB000DA9098 /* OCNotification.m */; };
+		574F6B5420DB144900DA9098 /* AppDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6B5320DB144900DA9098 /* AppDetailController.m */; };
+		574F6B5820DB161C00DA9098 /* AppDetailMediaHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6B5720DB161C00DA9098 /* AppDetailMediaHeader.m */; };
+		574F6B5B20DB172000DA9098 /* AppDetailSectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6B5A20DB172000DA9098 /* AppDetailSectionHeader.m */; };
+		574F6B5F20DB1F0000DA9098 /* EventDetailScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6B5E20DB1F0000DA9098 /* EventDetailScrollView.m */; };
+		574F6B6320DB1F2400DA9098 /* EventDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6B6220DB1F2400DA9098 /* EventDetailController.m */; };
+		574F6B6620DBBAB000DA9098 /* EventsCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6B6520DBBAB000DA9098 /* EventsCollectionCell.m */; };
+		574F6B6D20DBCB5000DA9098 /* AlertsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6B6C20DBCB5000DA9098 /* AlertsManager.m */; };
+		574F6B7020DBE33400DA9098 /* AppDetailRatingsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6B6F20DBE33400DA9098 /* AppDetailRatingsView.m */; };
+		574F6B7320DBE38200DA9098 /* AppDetailDescriptionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6B7220DBE38200DA9098 /* AppDetailDescriptionCell.m */; };
+		574F6B7620DBE39900DA9098 /* AppDetailSpecsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6B7520DBE39900DA9098 /* AppDetailSpecsCell.m */; };
+		574F6B7920DBE3B900DA9098 /* AppDetailRequirementsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6B7820DBE3B900DA9098 /* AppDetailRequirementsCell.m */; };
+		574F6B7C20DBE3E500DA9098 /* AppDetailRatingsReviewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6B7B20DBE3E400DA9098 /* AppDetailRatingsReviewsCell.m */; };
+		574F6B7F20DBE40400DA9098 /* AppDetailPublisherCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6B7E20DBE40400DA9098 /* AppDetailPublisherCell.m */; };
+		574F6B8220DBE41E00DA9098 /* AppDetailAdditionalDetailsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6B8120DBE41E00DA9098 /* AppDetailAdditionalDetailsCell.m */; };
+		574F6B8E20DC26CA00DA9098 /* AppDetailRequirementsFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6B8D20DC26CA00DA9098 /* AppDetailRequirementsFooter.m */; };
+		574F6B9520DC280200DA9098 /* AppDetailRequirementsCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6B9420DC280200DA9098 /* AppDetailRequirementsCollectionCell.m */; };
+		574F6B9820DC2BA700DA9098 /* AppDetailDefaultHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6B9720DC2BA700DA9098 /* AppDetailDefaultHeader.m */; };
+		574F6BA320DC313C00DA9098 /* AppDetailRatingsReviewsTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6BA220DC313C00DA9098 /* AppDetailRatingsReviewsTableCell.m */; };
+		574F6BA620DC4D7D00DA9098 /* AppDetailRatingsReviewsHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6BA520DC4D7D00DA9098 /* AppDetailRatingsReviewsHeader.m */; };
+		574F6BAA20DC50E000DA9098 /* AppDetailAdditionalDetailsTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6BA920DC50E000DA9098 /* AppDetailAdditionalDetailsTableCell.m */; };
+		574F6BAD20DC5FDD00DA9098 /* WelcomeToOculusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6BAC20DC5FDD00DA9098 /* WelcomeToOculusView.m */; };
+		574F6BB120DC64F900DA9098 /* welcomeVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 574F6BB020DC64F900DA9098 /* welcomeVideo.mp4 */; };
+		574F6BB420DC852400DA9098 /* SettingsHeadsetButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6BB320DC852400DA9098 /* SettingsHeadsetButton.m */; };
+		574F6BBC20DC8AF600DA9098 /* SignInController.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6BBB20DC8AF600DA9098 /* SignInController.m */; };
+		574F6BCE20DC8D1500DA9098 /* WelcomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6BCD20DC8D1500DA9098 /* WelcomeController.m */; };
+		574F6BD420DD07F600DA9098 /* StoreCategoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6BD320DD07F600DA9098 /* StoreCategoryController.m */; };
+		574F6BD720DD0A4F00DA9098 /* StoreCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6BD620DD0A4F00DA9098 /* StoreCategoryCell.m */; };
+		574F6BDA20DD0B2200DA9098 /* StoreCategoryHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6BD920DD0B2200DA9098 /* StoreCategoryHeader.m */; };
+		574F6BDE20DD135900DA9098 /* StoreCategoryHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 574F6BDD20DD135900DA9098 /* StoreCategoryHeaderCell.m */; };
+		57A485BF20E2F7EA00119F29 /* ValidationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A485BE20E2F7EA00119F29 /* ValidationManager.m */; };
+		57A485C320E3214000119F29 /* AppDetailExperiencesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A485C220E3214000119F29 /* AppDetailExperiencesCell.m */; };
+		57A485CA20E3CFAC00119F29 /* StoreFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A485C920E3CFAC00119F29 /* StoreFormatter.m */; };
+		57A485D520E52C2500119F29 /* OculusPreviewGIF.gif in Resources */ = {isa = PBXBuildFile; fileRef = 57A485D420E52C2500119F29 /* OculusPreviewGIF.gif */; };
+		57A485D720E52D5600119F29 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 57A485D620E52D5600119F29 /* README.md */; };
+		57C312E520DD3913009920DE /* WelcomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C312E420DD3913009920DE /* WelcomeView.m */; };
+		57C312E820DD3BD1009920DE /* FacebookButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C312E720DD3BD1009920DE /* FacebookButton.m */; };
+		57C312EC20DD4B26009920DE /* BottomNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C312EB20DD4B26009920DE /* BottomNavigationBar.m */; };
+		57C312EF20DD4EF1009920DE /* SignInView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C312EE20DD4EF1009920DE /* SignInView.m */; };
+		57C312F220DD4FB2009920DE /* OCTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C312F120DD4FB2009920DE /* OCTextField.m */; };
+		57C312F420DEE4AB009920DE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57C312F320DEE4AB009920DE /* GoogleService-Info.plist */; };
+		57C312F720DEFB8D009920DE /* SampleDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C312F620DEFB8D009920DE /* SampleDataManager.m */; };
+		57C312FC20E00114009920DE /* DateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C312FB20E00114009920DE /* DateManager.m */; };
+		57C312FF20E00468009920DE /* OCAppSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C312FE20E00468009920DE /* OCAppSection.m */; };
+		57C3130420E00656009920DE /* EventManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C3130320E00656009920DE /* EventManager.m */; };
+		57D9F01120E1D8E300BC8C7A /* OCMediaPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D9F01020E1D8E300BC8C7A /* OCMediaPlayerView.m */; };
+		57E291B020E28921008A3280 /* NotificationsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E291AF20E28921008A3280 /* NotificationsManager.m */; };
+		D0B79285BC2E0CABE5FB20D4 /* libPods-OculusTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD361D4D375EAAE36BB2C8F7 /* libPods-OculusTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,12 +102,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06FCF3BF57303F7B276D0CB1 /* libPods-Oculus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Oculus.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		476D0A82BA6D2F4D231CF62B /* Pods-OculusTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OculusTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OculusTests/Pods-OculusTests.release.xcconfig"; sourceTree = "<group>"; };
 		574F6AB920D94F3600DA9098 /* Oculus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oculus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		574F6ABD20D94F3600DA9098 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		574F6ABF20D94F3600DA9098 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		574F6AC020D94F3600DA9098 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		574F6AC220D94F3600DA9098 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		574F6AC320D94F3600DA9098 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		574F6AC220D94F3600DA9098 /* StoreController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StoreController.h; sourceTree = "<group>"; };
+		574F6AC320D94F3600DA9098 /* StoreController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StoreController.m; sourceTree = "<group>"; };
 		574F6AC620D94F3600DA9098 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		574F6AC920D94F3600DA9098 /* Oculus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Oculus.xcdatamodel; sourceTree = "<group>"; };
 		574F6ACB20D94F3600DA9098 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -42,6 +118,150 @@
 		574F6AD520D94F3700DA9098 /* OculusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OculusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		574F6AD920D94F3700DA9098 /* OculusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OculusTests.m; sourceTree = "<group>"; };
 		574F6ADB20D94F3700DA9098 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		574F6AEB20D9533D00DA9098 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		574F6AEC20D9533D00DA9098 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		574F6AEF20D9552800DA9098 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		574F6AF320D95BE400DA9098 /* NotificationsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationsController.h; sourceTree = "<group>"; };
+		574F6AF420D95BE400DA9098 /* NotificationsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationsController.m; sourceTree = "<group>"; };
+		574F6AFA20D95F4400DA9098 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		574F6AFB20D95F4400DA9098 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		574F6AFD20D9626C00DA9098 /* WelcomeToOculusController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeToOculusController.h; sourceTree = "<group>"; };
+		574F6AFE20D9626C00DA9098 /* WelcomeToOculusController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeToOculusController.m; sourceTree = "<group>"; };
+		574F6B0220D96A3B00DA9098 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		574F6B0720D96BFC00DA9098 /* StoreManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreManager.h; sourceTree = "<group>"; };
+		574F6B0820D96BFC00DA9098 /* StoreManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreManager.m; sourceTree = "<group>"; };
+		574F6B0A20D974D200DA9098 /* EventsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsController.h; sourceTree = "<group>"; };
+		574F6B0B20D974D200DA9098 /* EventsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsController.m; sourceTree = "<group>"; };
+		574F6B0D20D974E500DA9098 /* FriendsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsController.h; sourceTree = "<group>"; };
+		574F6B0E20D974E500DA9098 /* FriendsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsController.m; sourceTree = "<group>"; };
+		574F6B1020D9750000DA9098 /* SettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsController.h; sourceTree = "<group>"; };
+		574F6B1120D9750000DA9098 /* SettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsController.m; sourceTree = "<group>"; };
+		574F6B1720D9763700DA9098 /* SettingsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsManager.h; sourceTree = "<group>"; };
+		574F6B1820D9763700DA9098 /* SettingsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsManager.m; sourceTree = "<group>"; };
+		574F6B1A20D9D8A600DA9098 /* StoreFeaturedCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreFeaturedCell.h; sourceTree = "<group>"; };
+		574F6B1B20D9D8A600DA9098 /* StoreFeaturedCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreFeaturedCell.m; sourceTree = "<group>"; };
+		574F6B1D20D9D8CA00DA9098 /* StoreDefaultCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreDefaultCell.h; sourceTree = "<group>"; };
+		574F6B1E20D9D8CA00DA9098 /* StoreDefaultCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreDefaultCell.m; sourceTree = "<group>"; };
+		574F6B2020D9E04300DA9098 /* StoreDefaultCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreDefaultCollectionCell.h; sourceTree = "<group>"; };
+		574F6B2120D9E04300DA9098 /* StoreDefaultCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreDefaultCollectionCell.m; sourceTree = "<group>"; };
+		574F6B2320D9E42700DA9098 /* OCApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCApp.h; sourceTree = "<group>"; };
+		574F6B2420D9E42700DA9098 /* OCApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCApp.m; sourceTree = "<group>"; };
+		574F6B2820DA9A0000DA9098 /* StoreFeaturedCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreFeaturedCollectionCell.h; sourceTree = "<group>"; };
+		574F6B2920DA9A0000DA9098 /* StoreFeaturedCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreFeaturedCollectionCell.m; sourceTree = "<group>"; };
+		574F6B2C20DA9DC200DA9098 /* EventsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsCell.h; sourceTree = "<group>"; };
+		574F6B2D20DA9DC200DA9098 /* EventsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsCell.m; sourceTree = "<group>"; };
+		574F6B2F20DAB4BC00DA9098 /* OCEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCEvent.h; sourceTree = "<group>"; };
+		574F6B3020DAB4BC00DA9098 /* OCEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCEvent.m; sourceTree = "<group>"; };
+		574F6B3320DAC22F00DA9098 /* FriendsTableHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsTableHeader.h; sourceTree = "<group>"; };
+		574F6B3420DAC22F00DA9098 /* FriendsTableHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsTableHeader.m; sourceTree = "<group>"; };
+		574F6B3620DAC24D00DA9098 /* FriendsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsCell.h; sourceTree = "<group>"; };
+		574F6B3720DAC24D00DA9098 /* FriendsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsCell.m; sourceTree = "<group>"; };
+		574F6B3920DAC90C00DA9098 /* OCUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCUser.h; sourceTree = "<group>"; };
+		574F6B3A20DAC90C00DA9098 /* OCUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCUser.m; sourceTree = "<group>"; };
+		574F6B3D20DACFB500DA9098 /* SettingsTableHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsTableHeader.h; sourceTree = "<group>"; };
+		574F6B3E20DACFB500DA9098 /* SettingsTableHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsTableHeader.m; sourceTree = "<group>"; };
+		574F6B4020DAD55900DA9098 /* SettingsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsCell.h; sourceTree = "<group>"; };
+		574F6B4120DAD55900DA9098 /* SettingsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsCell.m; sourceTree = "<group>"; };
+		574F6B4320DAE1D700DA9098 /* SettingsTableFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsTableFooter.h; sourceTree = "<group>"; };
+		574F6B4420DAE1D700DA9098 /* SettingsTableFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsTableFooter.m; sourceTree = "<group>"; };
+		574F6B4620DAF24200DA9098 /* OCTableSectionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCTableSectionHeader.h; sourceTree = "<group>"; };
+		574F6B4720DAF24200DA9098 /* OCTableSectionHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCTableSectionHeader.m; sourceTree = "<group>"; };
+		574F6B4B20DAFA4900DA9098 /* NotificationsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationsCell.h; sourceTree = "<group>"; };
+		574F6B4C20DAFA4A00DA9098 /* NotificationsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationsCell.m; sourceTree = "<group>"; };
+		574F6B4E20DAFAB000DA9098 /* OCNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCNotification.h; sourceTree = "<group>"; };
+		574F6B4F20DAFAB000DA9098 /* OCNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCNotification.m; sourceTree = "<group>"; };
+		574F6B5220DB144900DA9098 /* AppDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDetailController.h; sourceTree = "<group>"; };
+		574F6B5320DB144900DA9098 /* AppDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDetailController.m; sourceTree = "<group>"; };
+		574F6B5620DB161C00DA9098 /* AppDetailMediaHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDetailMediaHeader.h; sourceTree = "<group>"; };
+		574F6B5720DB161C00DA9098 /* AppDetailMediaHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDetailMediaHeader.m; sourceTree = "<group>"; };
+		574F6B5920DB172000DA9098 /* AppDetailSectionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDetailSectionHeader.h; sourceTree = "<group>"; };
+		574F6B5A20DB172000DA9098 /* AppDetailSectionHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDetailSectionHeader.m; sourceTree = "<group>"; };
+		574F6B5D20DB1F0000DA9098 /* EventDetailScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventDetailScrollView.h; sourceTree = "<group>"; };
+		574F6B5E20DB1F0000DA9098 /* EventDetailScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventDetailScrollView.m; sourceTree = "<group>"; };
+		574F6B6120DB1F2400DA9098 /* EventDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventDetailController.h; sourceTree = "<group>"; };
+		574F6B6220DB1F2400DA9098 /* EventDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventDetailController.m; sourceTree = "<group>"; };
+		574F6B6420DBBAB000DA9098 /* EventsCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsCollectionCell.h; sourceTree = "<group>"; };
+		574F6B6520DBBAB000DA9098 /* EventsCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsCollectionCell.m; sourceTree = "<group>"; };
+		574F6B6B20DBCB5000DA9098 /* AlertsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertsManager.h; sourceTree = "<group>"; };
+		574F6B6C20DBCB5000DA9098 /* AlertsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertsManager.m; sourceTree = "<group>"; };
+		574F6B6E20DBE33400DA9098 /* AppDetailRatingsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDetailRatingsView.h; sourceTree = "<group>"; };
+		574F6B6F20DBE33400DA9098 /* AppDetailRatingsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDetailRatingsView.m; sourceTree = "<group>"; };
+		574F6B7120DBE38200DA9098 /* AppDetailDescriptionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDetailDescriptionCell.h; sourceTree = "<group>"; };
+		574F6B7220DBE38200DA9098 /* AppDetailDescriptionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDetailDescriptionCell.m; sourceTree = "<group>"; };
+		574F6B7420DBE39900DA9098 /* AppDetailSpecsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDetailSpecsCell.h; sourceTree = "<group>"; };
+		574F6B7520DBE39900DA9098 /* AppDetailSpecsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDetailSpecsCell.m; sourceTree = "<group>"; };
+		574F6B7720DBE3B900DA9098 /* AppDetailRequirementsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDetailRequirementsCell.h; sourceTree = "<group>"; };
+		574F6B7820DBE3B900DA9098 /* AppDetailRequirementsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDetailRequirementsCell.m; sourceTree = "<group>"; };
+		574F6B7A20DBE3E400DA9098 /* AppDetailRatingsReviewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDetailRatingsReviewsCell.h; sourceTree = "<group>"; };
+		574F6B7B20DBE3E400DA9098 /* AppDetailRatingsReviewsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDetailRatingsReviewsCell.m; sourceTree = "<group>"; };
+		574F6B7D20DBE40400DA9098 /* AppDetailPublisherCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDetailPublisherCell.h; sourceTree = "<group>"; };
+		574F6B7E20DBE40400DA9098 /* AppDetailPublisherCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDetailPublisherCell.m; sourceTree = "<group>"; };
+		574F6B8020DBE41E00DA9098 /* AppDetailAdditionalDetailsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDetailAdditionalDetailsCell.h; sourceTree = "<group>"; };
+		574F6B8120DBE41E00DA9098 /* AppDetailAdditionalDetailsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDetailAdditionalDetailsCell.m; sourceTree = "<group>"; };
+		574F6B8C20DC26CA00DA9098 /* AppDetailRequirementsFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDetailRequirementsFooter.h; sourceTree = "<group>"; };
+		574F6B8D20DC26CA00DA9098 /* AppDetailRequirementsFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDetailRequirementsFooter.m; sourceTree = "<group>"; };
+		574F6B9320DC280200DA9098 /* AppDetailRequirementsCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDetailRequirementsCollectionCell.h; sourceTree = "<group>"; };
+		574F6B9420DC280200DA9098 /* AppDetailRequirementsCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDetailRequirementsCollectionCell.m; sourceTree = "<group>"; };
+		574F6B9620DC2BA700DA9098 /* AppDetailDefaultHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDetailDefaultHeader.h; sourceTree = "<group>"; };
+		574F6B9720DC2BA700DA9098 /* AppDetailDefaultHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDetailDefaultHeader.m; sourceTree = "<group>"; };
+		574F6BA120DC313C00DA9098 /* AppDetailRatingsReviewsTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDetailRatingsReviewsTableCell.h; sourceTree = "<group>"; };
+		574F6BA220DC313C00DA9098 /* AppDetailRatingsReviewsTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDetailRatingsReviewsTableCell.m; sourceTree = "<group>"; };
+		574F6BA420DC4D7D00DA9098 /* AppDetailRatingsReviewsHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDetailRatingsReviewsHeader.h; sourceTree = "<group>"; };
+		574F6BA520DC4D7D00DA9098 /* AppDetailRatingsReviewsHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDetailRatingsReviewsHeader.m; sourceTree = "<group>"; };
+		574F6BA820DC50E000DA9098 /* AppDetailAdditionalDetailsTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDetailAdditionalDetailsTableCell.h; sourceTree = "<group>"; };
+		574F6BA920DC50E000DA9098 /* AppDetailAdditionalDetailsTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDetailAdditionalDetailsTableCell.m; sourceTree = "<group>"; };
+		574F6BAB20DC5FDD00DA9098 /* WelcomeToOculusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeToOculusView.h; sourceTree = "<group>"; };
+		574F6BAC20DC5FDD00DA9098 /* WelcomeToOculusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeToOculusView.m; sourceTree = "<group>"; };
+		574F6BB020DC64F900DA9098 /* welcomeVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = welcomeVideo.mp4; path = ../welcomeVideo.mp4; sourceTree = "<group>"; };
+		574F6BB220DC852400DA9098 /* SettingsHeadsetButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsHeadsetButton.h; sourceTree = "<group>"; };
+		574F6BB320DC852400DA9098 /* SettingsHeadsetButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsHeadsetButton.m; sourceTree = "<group>"; };
+		574F6BBA20DC8AF600DA9098 /* SignInController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInController.h; sourceTree = "<group>"; };
+		574F6BBB20DC8AF600DA9098 /* SignInController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInController.m; sourceTree = "<group>"; };
+		574F6BCC20DC8D1500DA9098 /* WelcomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeController.h; sourceTree = "<group>"; };
+		574F6BCD20DC8D1500DA9098 /* WelcomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeController.m; sourceTree = "<group>"; };
+		574F6BD220DD07F600DA9098 /* StoreCategoryController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreCategoryController.h; sourceTree = "<group>"; };
+		574F6BD320DD07F600DA9098 /* StoreCategoryController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreCategoryController.m; sourceTree = "<group>"; };
+		574F6BD520DD0A4F00DA9098 /* StoreCategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreCategoryCell.h; sourceTree = "<group>"; };
+		574F6BD620DD0A4F00DA9098 /* StoreCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreCategoryCell.m; sourceTree = "<group>"; };
+		574F6BD820DD0B2200DA9098 /* StoreCategoryHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreCategoryHeader.h; sourceTree = "<group>"; };
+		574F6BD920DD0B2200DA9098 /* StoreCategoryHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreCategoryHeader.m; sourceTree = "<group>"; };
+		574F6BDC20DD135900DA9098 /* StoreCategoryHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreCategoryHeaderCell.h; sourceTree = "<group>"; };
+		574F6BDD20DD135900DA9098 /* StoreCategoryHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreCategoryHeaderCell.m; sourceTree = "<group>"; };
+		57A485BD20E2F7EA00119F29 /* ValidationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValidationManager.h; sourceTree = "<group>"; };
+		57A485BE20E2F7EA00119F29 /* ValidationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValidationManager.m; sourceTree = "<group>"; };
+		57A485C120E3214000119F29 /* AppDetailExperiencesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDetailExperiencesCell.h; sourceTree = "<group>"; };
+		57A485C220E3214000119F29 /* AppDetailExperiencesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDetailExperiencesCell.m; sourceTree = "<group>"; };
+		57A485C820E3CFAC00119F29 /* StoreFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreFormatter.h; sourceTree = "<group>"; };
+		57A485C920E3CFAC00119F29 /* StoreFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreFormatter.m; sourceTree = "<group>"; };
+		57A485D420E52C2500119F29 /* OculusPreviewGIF.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = OculusPreviewGIF.gif; sourceTree = "<group>"; };
+		57A485D620E52D5600119F29 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		57C312E320DD3913009920DE /* WelcomeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeView.h; sourceTree = "<group>"; };
+		57C312E420DD3913009920DE /* WelcomeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeView.m; sourceTree = "<group>"; };
+		57C312E620DD3BD1009920DE /* FacebookButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookButton.h; sourceTree = "<group>"; };
+		57C312E720DD3BD1009920DE /* FacebookButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookButton.m; sourceTree = "<group>"; };
+		57C312EA20DD4B26009920DE /* BottomNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomNavigationBar.h; sourceTree = "<group>"; };
+		57C312EB20DD4B26009920DE /* BottomNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomNavigationBar.m; sourceTree = "<group>"; };
+		57C312ED20DD4EF1009920DE /* SignInView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInView.h; sourceTree = "<group>"; };
+		57C312EE20DD4EF1009920DE /* SignInView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInView.m; sourceTree = "<group>"; };
+		57C312F020DD4FB2009920DE /* OCTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCTextField.h; sourceTree = "<group>"; };
+		57C312F120DD4FB2009920DE /* OCTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCTextField.m; sourceTree = "<group>"; };
+		57C312F320DEE4AB009920DE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		57C312F520DEFB8D009920DE /* SampleDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleDataManager.h; sourceTree = "<group>"; };
+		57C312F620DEFB8D009920DE /* SampleDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleDataManager.m; sourceTree = "<group>"; };
+		57C312FA20E00114009920DE /* DateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateManager.h; sourceTree = "<group>"; };
+		57C312FB20E00114009920DE /* DateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateManager.m; sourceTree = "<group>"; };
+		57C312FD20E00468009920DE /* OCAppSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCAppSection.h; sourceTree = "<group>"; };
+		57C312FE20E00468009920DE /* OCAppSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCAppSection.m; sourceTree = "<group>"; };
+		57C3130220E00656009920DE /* EventManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventManager.h; sourceTree = "<group>"; };
+		57C3130320E00656009920DE /* EventManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventManager.m; sourceTree = "<group>"; };
+		57D9F00F20E1D8E300BC8C7A /* OCMediaPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMediaPlayerView.h; sourceTree = "<group>"; };
+		57D9F01020E1D8E300BC8C7A /* OCMediaPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCMediaPlayerView.m; sourceTree = "<group>"; };
+		57E291AE20E28921008A3280 /* NotificationsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationsManager.h; sourceTree = "<group>"; };
+		57E291AF20E28921008A3280 /* NotificationsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationsManager.m; sourceTree = "<group>"; };
+		A19623F28F2C7DF13C1F3FBB /* Pods-OculusTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OculusTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OculusTests/Pods-OculusTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C6C05DDEA4B095FCB7A78521 /* Pods-Oculus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oculus.release.xcconfig"; path = "Pods/Target Support Files/Pods-Oculus/Pods-Oculus.release.xcconfig"; sourceTree = "<group>"; };
+		F24F7B7D04C280A4901559B2 /* Pods-Oculus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oculus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Oculus/Pods-Oculus.debug.xcconfig"; sourceTree = "<group>"; };
+		FD361D4D375EAAE36BB2C8F7 /* libPods-OculusTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OculusTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +269,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3283F7C632A7644A4894D231 /* libPods-Oculus.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +277,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0B79285BC2E0CABE5FB20D4 /* libPods-OculusTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +290,8 @@
 				574F6ABB20D94F3600DA9098 /* Oculus */,
 				574F6AD820D94F3700DA9098 /* OculusTests */,
 				574F6ABA20D94F3600DA9098 /* Products */,
+				994E6A13E1068B28053668D0 /* Pods */,
+				8F25E8E64785E3D65E1B9C50 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,9 +309,14 @@
 			children = (
 				574F6ABF20D94F3600DA9098 /* AppDelegate.h */,
 				574F6AC020D94F3600DA9098 /* AppDelegate.m */,
-				574F6AC220D94F3600DA9098 /* ViewController.h */,
-				574F6AC320D94F3600DA9098 /* ViewController.m */,
+				574F6AF720D95D0B00DA9098 /* Controllers */,
+				574F6AF120D95BAE00DA9098 /* Views */,
+				574F6AEE20D954C600DA9098 /* Model */,
 				574F6AC520D94F3600DA9098 /* Main.storyboard */,
+				574F6BB020DC64F900DA9098 /* welcomeVideo.mp4 */,
+				57A485D420E52C2500119F29 /* OculusPreviewGIF.gif */,
+				57C312F320DEE4AB009920DE /* GoogleService-Info.plist */,
+				57A485D620E52D5600119F29 /* README.md */,
 				574F6ACB20D94F3600DA9098 /* Assets.xcassets */,
 				574F6ACD20D94F3600DA9098 /* LaunchScreen.storyboard */,
 				574F6AD020D94F3700DA9098 /* Info.plist */,
@@ -114,6 +343,617 @@
 			path = OculusTests;
 			sourceTree = "<group>";
 		};
+		574F6AE420D9509300DA9098 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				574F6AE520D950A100DA9098 /* Store */,
+				574F6AE620D950AB00DA9098 /* Events */,
+				574F6AE720D950B100DA9098 /* Friends */,
+				574F6AE820D950B800DA9098 /* Settings */,
+			);
+			name = Tabs;
+			sourceTree = "<group>";
+		};
+		574F6AE520D950A100DA9098 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				574F6AC220D94F3600DA9098 /* StoreController.h */,
+				574F6AC320D94F3600DA9098 /* StoreController.m */,
+				574F6BD120DD079D00DA9098 /* StoreCategory */,
+				574F6B5120DB0B8500DA9098 /* AppDetail */,
+			);
+			name = Store;
+			sourceTree = "<group>";
+		};
+		574F6AE620D950AB00DA9098 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				574F6B0A20D974D200DA9098 /* EventsController.h */,
+				574F6B0B20D974D200DA9098 /* EventsController.m */,
+				574F6B6020DB1F0800DA9098 /* EventDetail */,
+			);
+			name = Events;
+			sourceTree = "<group>";
+		};
+		574F6AE720D950B100DA9098 /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				574F6B0D20D974E500DA9098 /* FriendsController.h */,
+				574F6B0E20D974E500DA9098 /* FriendsController.m */,
+			);
+			name = Friends;
+			sourceTree = "<group>";
+		};
+		574F6AE820D950B800DA9098 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				574F6B1020D9750000DA9098 /* SettingsController.h */,
+				574F6B1120D9750000DA9098 /* SettingsController.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		574F6AE920D952CD00DA9098 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				574F6AEB20D9533D00DA9098 /* NavigationController.h */,
+				574F6AEC20D9533D00DA9098 /* NavigationController.m */,
+				574F6AFA20D95F4400DA9098 /* TabBarController.h */,
+				574F6AFB20D95F4400DA9098 /* TabBarController.m */,
+			);
+			name = Navigation;
+			sourceTree = "<group>";
+		};
+		574F6AEE20D954C600DA9098 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				574F6B0520D96BC300DA9098 /* Local */,
+				574F6B0620D96BCB00DA9098 /* Managers */,
+				574F6B0220D96A3B00DA9098 /* Constants.h */,
+				574F6AEF20D9552800DA9098 /* Localizable.strings */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		574F6AF120D95BAE00DA9098 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				57C312E920DD4AFF009920DE /* Navigation */,
+				574F6BAE20DC5FE200DA9098 /* Onboarding */,
+				574F6AF620D95CF900DA9098 /* Tabs */,
+				574F6B4920DAF25800DA9098 /* General */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		574F6AF220D95BB700DA9098 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				574F6AF320D95BE400DA9098 /* NotificationsController.h */,
+				574F6AF420D95BE400DA9098 /* NotificationsController.m */,
+			);
+			name = Notifications;
+			sourceTree = "<group>";
+		};
+		574F6AF620D95CF900DA9098 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				574F6AF820D95D1A00DA9098 /* Store */,
+				574F6B2B20DA9D7900DA9098 /* Events */,
+				574F6B3220DAC1A200DA9098 /* Friends */,
+				574F6B3C20DACB8400DA9098 /* Settings */,
+			);
+			name = Tabs;
+			sourceTree = "<group>";
+		};
+		574F6AF720D95D0B00DA9098 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				574F6AE920D952CD00DA9098 /* Navigation */,
+				574F6B0120D968A300DA9098 /* Onboarding */,
+				574F6AE420D9509300DA9098 /* Tabs */,
+				574F6B1320D9758900DA9098 /* General */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		574F6AF820D95D1A00DA9098 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				574F6BDB20DD0E0F00DA9098 /* StoreCategory */,
+				574F6B2720DA7A7300DA9098 /* DefaultCell */,
+				574F6B2620DA7A6800DA9098 /* FeaturedCell */,
+				574F6B5C20DB1D9C00DA9098 /* AppDetail */,
+			);
+			name = Store;
+			sourceTree = "<group>";
+		};
+		574F6B0020D9689A00DA9098 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				574F6BCC20DC8D1500DA9098 /* WelcomeController.h */,
+				574F6BCD20DC8D1500DA9098 /* WelcomeController.m */,
+				574F6AFD20D9626C00DA9098 /* WelcomeToOculusController.h */,
+				574F6AFE20D9626C00DA9098 /* WelcomeToOculusController.m */,
+			);
+			name = Welcome;
+			sourceTree = "<group>";
+		};
+		574F6B0120D968A300DA9098 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				574F6B0020D9689A00DA9098 /* Welcome */,
+				574F6BB820DC8ACF00DA9098 /* SignIn */,
+			);
+			name = Onboarding;
+			sourceTree = "<group>";
+		};
+		574F6B0520D96BC300DA9098 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				574F6B3920DAC90C00DA9098 /* OCUser.h */,
+				574F6B3A20DAC90C00DA9098 /* OCUser.m */,
+				57C312FD20E00468009920DE /* OCAppSection.h */,
+				57C312FE20E00468009920DE /* OCAppSection.m */,
+				574F6B2320D9E42700DA9098 /* OCApp.h */,
+				574F6B2420D9E42700DA9098 /* OCApp.m */,
+				574F6B2F20DAB4BC00DA9098 /* OCEvent.h */,
+				574F6B3020DAB4BC00DA9098 /* OCEvent.m */,
+				574F6B4E20DAFAB000DA9098 /* OCNotification.h */,
+				574F6B4F20DAFAB000DA9098 /* OCNotification.m */,
+			);
+			name = Local;
+			sourceTree = "<group>";
+		};
+		574F6B0620D96BCB00DA9098 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				574F6B1420D9760100DA9098 /* Tabs */,
+				57C312F820E000DE009920DE /* SampleData */,
+				57C3130020E0062C009920DE /* General */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		574F6B1320D9758900DA9098 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				574F6AF220D95BB700DA9098 /* Notifications */,
+			);
+			name = General;
+			sourceTree = "<group>";
+		};
+		574F6B1420D9760100DA9098 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				574F6B1520D9760F00DA9098 /* Store */,
+				57C3130120E00644009920DE /* Event */,
+				574F6B1620D9761D00DA9098 /* Settings */,
+			);
+			name = Tabs;
+			sourceTree = "<group>";
+		};
+		574F6B1520D9760F00DA9098 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				574F6B0720D96BFC00DA9098 /* StoreManager.h */,
+				574F6B0820D96BFC00DA9098 /* StoreManager.m */,
+			);
+			name = Store;
+			sourceTree = "<group>";
+		};
+		574F6B1620D9761D00DA9098 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				574F6B1720D9763700DA9098 /* SettingsManager.h */,
+				574F6B1820D9763700DA9098 /* SettingsManager.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		574F6B2620DA7A6800DA9098 /* FeaturedCell */ = {
+			isa = PBXGroup;
+			children = (
+				574F6B1A20D9D8A600DA9098 /* StoreFeaturedCell.h */,
+				574F6B1B20D9D8A600DA9098 /* StoreFeaturedCell.m */,
+				574F6B2820DA9A0000DA9098 /* StoreFeaturedCollectionCell.h */,
+				574F6B2920DA9A0000DA9098 /* StoreFeaturedCollectionCell.m */,
+			);
+			name = FeaturedCell;
+			sourceTree = "<group>";
+		};
+		574F6B2720DA7A7300DA9098 /* DefaultCell */ = {
+			isa = PBXGroup;
+			children = (
+				574F6B1D20D9D8CA00DA9098 /* StoreDefaultCell.h */,
+				574F6B1E20D9D8CA00DA9098 /* StoreDefaultCell.m */,
+				574F6B2020D9E04300DA9098 /* StoreDefaultCollectionCell.h */,
+				574F6B2120D9E04300DA9098 /* StoreDefaultCollectionCell.m */,
+			);
+			name = DefaultCell;
+			sourceTree = "<group>";
+		};
+		574F6B2B20DA9D7900DA9098 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				574F6B6420DBBAB000DA9098 /* EventsCollectionCell.h */,
+				574F6B6520DBBAB000DA9098 /* EventsCollectionCell.m */,
+				574F6B2C20DA9DC200DA9098 /* EventsCell.h */,
+				574F6B2D20DA9DC200DA9098 /* EventsCell.m */,
+				574F6B5520DB15EE00DA9098 /* EventDetail */,
+			);
+			name = Events;
+			sourceTree = "<group>";
+		};
+		574F6B3220DAC1A200DA9098 /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				574F6B3320DAC22F00DA9098 /* FriendsTableHeader.h */,
+				574F6B3420DAC22F00DA9098 /* FriendsTableHeader.m */,
+				574F6B3620DAC24D00DA9098 /* FriendsCell.h */,
+				574F6B3720DAC24D00DA9098 /* FriendsCell.m */,
+			);
+			name = Friends;
+			sourceTree = "<group>";
+		};
+		574F6B3C20DACB8400DA9098 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				574F6B3D20DACFB500DA9098 /* SettingsTableHeader.h */,
+				574F6B3E20DACFB500DA9098 /* SettingsTableHeader.m */,
+				574F6B4020DAD55900DA9098 /* SettingsCell.h */,
+				574F6B4120DAD55900DA9098 /* SettingsCell.m */,
+				574F6B4320DAE1D700DA9098 /* SettingsTableFooter.h */,
+				574F6B4420DAE1D700DA9098 /* SettingsTableFooter.m */,
+				574F6BB220DC852400DA9098 /* SettingsHeadsetButton.h */,
+				574F6BB320DC852400DA9098 /* SettingsHeadsetButton.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		574F6B4920DAF25800DA9098 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				57A485CC20E3FA1D00119F29 /* SectionHeader */,
+				57A485CB20E3FA0B00119F29 /* TextField */,
+				57D9F00E20E1D8BB00BC8C7A /* MediaPlayer */,
+				574F6B4A20DAFA2200DA9098 /* Notifications */,
+			);
+			name = General;
+			sourceTree = "<group>";
+		};
+		574F6B4A20DAFA2200DA9098 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				574F6B4B20DAFA4900DA9098 /* NotificationsCell.h */,
+				574F6B4C20DAFA4A00DA9098 /* NotificationsCell.m */,
+			);
+			name = Notifications;
+			sourceTree = "<group>";
+		};
+		574F6B5120DB0B8500DA9098 /* AppDetail */ = {
+			isa = PBXGroup;
+			children = (
+				574F6B5220DB144900DA9098 /* AppDetailController.h */,
+				574F6B5320DB144900DA9098 /* AppDetailController.m */,
+			);
+			name = AppDetail;
+			sourceTree = "<group>";
+		};
+		574F6B5520DB15EE00DA9098 /* EventDetail */ = {
+			isa = PBXGroup;
+			children = (
+				574F6B5D20DB1F0000DA9098 /* EventDetailScrollView.h */,
+				574F6B5E20DB1F0000DA9098 /* EventDetailScrollView.m */,
+			);
+			name = EventDetail;
+			sourceTree = "<group>";
+		};
+		574F6B5C20DB1D9C00DA9098 /* AppDetail */ = {
+			isa = PBXGroup;
+			children = (
+				574F6B5920DB172000DA9098 /* AppDetailSectionHeader.h */,
+				574F6B5A20DB172000DA9098 /* AppDetailSectionHeader.m */,
+				574F6B9620DC2BA700DA9098 /* AppDetailDefaultHeader.h */,
+				574F6B9720DC2BA700DA9098 /* AppDetailDefaultHeader.m */,
+				574F6B8F20DC26F100DA9098 /* MediaHeader */,
+				574F6B9020DC270600DA9098 /* DescriptionCell */,
+				57A485C020E320ED00119F29 /* ExperiencesCell */,
+				574F6B9120DC275400DA9098 /* SpecsCell */,
+				574F6B9220DC276400DA9098 /* RequirementsCell */,
+				574F6B9C20DC2F8400DA9098 /* RatingsReviewsCell */,
+				574F6B9D20DC303300DA9098 /* PublisherCell */,
+				574F6BA720DC506900DA9098 /* AdditonalDetailsCell */,
+			);
+			name = AppDetail;
+			sourceTree = "<group>";
+		};
+		574F6B6020DB1F0800DA9098 /* EventDetail */ = {
+			isa = PBXGroup;
+			children = (
+				574F6B6120DB1F2400DA9098 /* EventDetailController.h */,
+				574F6B6220DB1F2400DA9098 /* EventDetailController.m */,
+			);
+			name = EventDetail;
+			sourceTree = "<group>";
+		};
+		574F6B6A20DBCB3600DA9098 /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				574F6B6B20DBCB5000DA9098 /* AlertsManager.h */,
+				574F6B6C20DBCB5000DA9098 /* AlertsManager.m */,
+			);
+			name = Alerts;
+			sourceTree = "<group>";
+		};
+		574F6B8F20DC26F100DA9098 /* MediaHeader */ = {
+			isa = PBXGroup;
+			children = (
+				574F6B5620DB161C00DA9098 /* AppDetailMediaHeader.h */,
+				574F6B5720DB161C00DA9098 /* AppDetailMediaHeader.m */,
+			);
+			name = MediaHeader;
+			sourceTree = "<group>";
+		};
+		574F6B9020DC270600DA9098 /* DescriptionCell */ = {
+			isa = PBXGroup;
+			children = (
+				574F6B7120DBE38200DA9098 /* AppDetailDescriptionCell.h */,
+				574F6B7220DBE38200DA9098 /* AppDetailDescriptionCell.m */,
+				574F6B6E20DBE33400DA9098 /* AppDetailRatingsView.h */,
+				574F6B6F20DBE33400DA9098 /* AppDetailRatingsView.m */,
+			);
+			name = DescriptionCell;
+			sourceTree = "<group>";
+		};
+		574F6B9120DC275400DA9098 /* SpecsCell */ = {
+			isa = PBXGroup;
+			children = (
+				574F6B7420DBE39900DA9098 /* AppDetailSpecsCell.h */,
+				574F6B7520DBE39900DA9098 /* AppDetailSpecsCell.m */,
+			);
+			name = SpecsCell;
+			sourceTree = "<group>";
+		};
+		574F6B9220DC276400DA9098 /* RequirementsCell */ = {
+			isa = PBXGroup;
+			children = (
+				574F6B7720DBE3B900DA9098 /* AppDetailRequirementsCell.h */,
+				574F6B7820DBE3B900DA9098 /* AppDetailRequirementsCell.m */,
+				574F6B8C20DC26CA00DA9098 /* AppDetailRequirementsFooter.h */,
+				574F6B8D20DC26CA00DA9098 /* AppDetailRequirementsFooter.m */,
+				574F6B9320DC280200DA9098 /* AppDetailRequirementsCollectionCell.h */,
+				574F6B9420DC280200DA9098 /* AppDetailRequirementsCollectionCell.m */,
+			);
+			name = RequirementsCell;
+			sourceTree = "<group>";
+		};
+		574F6B9C20DC2F8400DA9098 /* RatingsReviewsCell */ = {
+			isa = PBXGroup;
+			children = (
+				574F6B7A20DBE3E400DA9098 /* AppDetailRatingsReviewsCell.h */,
+				574F6B7B20DBE3E400DA9098 /* AppDetailRatingsReviewsCell.m */,
+				574F6BA420DC4D7D00DA9098 /* AppDetailRatingsReviewsHeader.h */,
+				574F6BA520DC4D7D00DA9098 /* AppDetailRatingsReviewsHeader.m */,
+				574F6BA120DC313C00DA9098 /* AppDetailRatingsReviewsTableCell.h */,
+				574F6BA220DC313C00DA9098 /* AppDetailRatingsReviewsTableCell.m */,
+			);
+			name = RatingsReviewsCell;
+			sourceTree = "<group>";
+		};
+		574F6B9D20DC303300DA9098 /* PublisherCell */ = {
+			isa = PBXGroup;
+			children = (
+				574F6B7D20DBE40400DA9098 /* AppDetailPublisherCell.h */,
+				574F6B7E20DBE40400DA9098 /* AppDetailPublisherCell.m */,
+			);
+			name = PublisherCell;
+			sourceTree = "<group>";
+		};
+		574F6BA720DC506900DA9098 /* AdditonalDetailsCell */ = {
+			isa = PBXGroup;
+			children = (
+				574F6B8020DBE41E00DA9098 /* AppDetailAdditionalDetailsCell.h */,
+				574F6B8120DBE41E00DA9098 /* AppDetailAdditionalDetailsCell.m */,
+				574F6BA820DC50E000DA9098 /* AppDetailAdditionalDetailsTableCell.h */,
+				574F6BA920DC50E000DA9098 /* AppDetailAdditionalDetailsTableCell.m */,
+			);
+			name = AdditonalDetailsCell;
+			sourceTree = "<group>";
+		};
+		574F6BAE20DC5FE200DA9098 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				574F6BAF20DC5FEB00DA9098 /* Welcome */,
+				574F6BCF20DC903400DA9098 /* SignIn */,
+			);
+			name = Onboarding;
+			sourceTree = "<group>";
+		};
+		574F6BAF20DC5FEB00DA9098 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				57C312E320DD3913009920DE /* WelcomeView.h */,
+				57C312E420DD3913009920DE /* WelcomeView.m */,
+				57C312E620DD3BD1009920DE /* FacebookButton.h */,
+				57C312E720DD3BD1009920DE /* FacebookButton.m */,
+				574F6BAB20DC5FDD00DA9098 /* WelcomeToOculusView.h */,
+				574F6BAC20DC5FDD00DA9098 /* WelcomeToOculusView.m */,
+			);
+			name = Welcome;
+			sourceTree = "<group>";
+		};
+		574F6BB820DC8ACF00DA9098 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				574F6BBA20DC8AF600DA9098 /* SignInController.h */,
+				574F6BBB20DC8AF600DA9098 /* SignInController.m */,
+			);
+			name = SignIn;
+			sourceTree = "<group>";
+		};
+		574F6BCF20DC903400DA9098 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				57C312ED20DD4EF1009920DE /* SignInView.h */,
+				57C312EE20DD4EF1009920DE /* SignInView.m */,
+			);
+			name = SignIn;
+			sourceTree = "<group>";
+		};
+		574F6BD120DD079D00DA9098 /* StoreCategory */ = {
+			isa = PBXGroup;
+			children = (
+				574F6BD220DD07F600DA9098 /* StoreCategoryController.h */,
+				574F6BD320DD07F600DA9098 /* StoreCategoryController.m */,
+			);
+			name = StoreCategory;
+			sourceTree = "<group>";
+		};
+		574F6BDB20DD0E0F00DA9098 /* StoreCategory */ = {
+			isa = PBXGroup;
+			children = (
+				574F6BD520DD0A4F00DA9098 /* StoreCategoryCell.h */,
+				574F6BD620DD0A4F00DA9098 /* StoreCategoryCell.m */,
+				574F6BD820DD0B2200DA9098 /* StoreCategoryHeader.h */,
+				574F6BD920DD0B2200DA9098 /* StoreCategoryHeader.m */,
+				574F6BDC20DD135900DA9098 /* StoreCategoryHeaderCell.h */,
+				574F6BDD20DD135900DA9098 /* StoreCategoryHeaderCell.m */,
+			);
+			name = StoreCategory;
+			sourceTree = "<group>";
+		};
+		57A485BC20E2F7CD00119F29 /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				57A485BD20E2F7EA00119F29 /* ValidationManager.h */,
+				57A485BE20E2F7EA00119F29 /* ValidationManager.m */,
+			);
+			name = Validation;
+			sourceTree = "<group>";
+		};
+		57A485C020E320ED00119F29 /* ExperiencesCell */ = {
+			isa = PBXGroup;
+			children = (
+				57A485C120E3214000119F29 /* AppDetailExperiencesCell.h */,
+				57A485C220E3214000119F29 /* AppDetailExperiencesCell.m */,
+			);
+			name = ExperiencesCell;
+			sourceTree = "<group>";
+		};
+		57A485C720E3CF7E00119F29 /* Formatters */ = {
+			isa = PBXGroup;
+			children = (
+				57A485C820E3CFAC00119F29 /* StoreFormatter.h */,
+				57A485C920E3CFAC00119F29 /* StoreFormatter.m */,
+			);
+			name = Formatters;
+			sourceTree = "<group>";
+		};
+		57A485CB20E3FA0B00119F29 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				57C312F020DD4FB2009920DE /* OCTextField.h */,
+				57C312F120DD4FB2009920DE /* OCTextField.m */,
+			);
+			name = TextField;
+			sourceTree = "<group>";
+		};
+		57A485CC20E3FA1D00119F29 /* SectionHeader */ = {
+			isa = PBXGroup;
+			children = (
+				574F6B4620DAF24200DA9098 /* OCTableSectionHeader.h */,
+				574F6B4720DAF24200DA9098 /* OCTableSectionHeader.m */,
+			);
+			name = SectionHeader;
+			sourceTree = "<group>";
+		};
+		57C312E920DD4AFF009920DE /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				57C312EA20DD4B26009920DE /* BottomNavigationBar.h */,
+				57C312EB20DD4B26009920DE /* BottomNavigationBar.m */,
+			);
+			name = Navigation;
+			sourceTree = "<group>";
+		};
+		57C312F820E000DE009920DE /* SampleData */ = {
+			isa = PBXGroup;
+			children = (
+				57C312F520DEFB8D009920DE /* SampleDataManager.h */,
+				57C312F620DEFB8D009920DE /* SampleDataManager.m */,
+			);
+			name = SampleData;
+			sourceTree = "<group>";
+		};
+		57C312F920E000EB009920DE /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				57C312FA20E00114009920DE /* DateManager.h */,
+				57C312FB20E00114009920DE /* DateManager.m */,
+			);
+			name = Date;
+			sourceTree = "<group>";
+		};
+		57C3130020E0062C009920DE /* General */ = {
+			isa = PBXGroup;
+			children = (
+				57A485C720E3CF7E00119F29 /* Formatters */,
+				57A485BC20E2F7CD00119F29 /* Validation */,
+				57E291AD20E28902008A3280 /* Notifications */,
+				57C312F920E000EB009920DE /* Date */,
+				574F6B6A20DBCB3600DA9098 /* Alerts */,
+			);
+			name = General;
+			sourceTree = "<group>";
+		};
+		57C3130120E00644009920DE /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				57C3130220E00656009920DE /* EventManager.h */,
+				57C3130320E00656009920DE /* EventManager.m */,
+			);
+			name = Event;
+			sourceTree = "<group>";
+		};
+		57D9F00E20E1D8BB00BC8C7A /* MediaPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				57D9F00F20E1D8E300BC8C7A /* OCMediaPlayerView.h */,
+				57D9F01020E1D8E300BC8C7A /* OCMediaPlayerView.m */,
+			);
+			name = MediaPlayer;
+			sourceTree = "<group>";
+		};
+		57E291AD20E28902008A3280 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				57E291AE20E28921008A3280 /* NotificationsManager.h */,
+				57E291AF20E28921008A3280 /* NotificationsManager.m */,
+			);
+			name = Notifications;
+			sourceTree = "<group>";
+		};
+		8F25E8E64785E3D65E1B9C50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06FCF3BF57303F7B276D0CB1 /* libPods-Oculus.a */,
+				FD361D4D375EAAE36BB2C8F7 /* libPods-OculusTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		994E6A13E1068B28053668D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F24F7B7D04C280A4901559B2 /* Pods-Oculus.debug.xcconfig */,
+				C6C05DDEA4B095FCB7A78521 /* Pods-Oculus.release.xcconfig */,
+				A19623F28F2C7DF13C1F3FBB /* Pods-OculusTests.debug.xcconfig */,
+				476D0A82BA6D2F4D231CF62B /* Pods-OculusTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -121,9 +961,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 574F6ADE20D94F3700DA9098 /* Build configuration list for PBXNativeTarget "Oculus" */;
 			buildPhases = (
+				19BF481A1A75E8EBB37502E2 /* [CP] Check Pods Manifest.lock */,
 				574F6AB520D94F3500DA9098 /* Sources */,
 				574F6AB620D94F3500DA9098 /* Frameworks */,
 				574F6AB720D94F3500DA9098 /* Resources */,
+				C3B820B0803BA8238AE7FD9D /* [CP] Embed Pods Frameworks */,
+				6818FC3905B31C1DDE258917 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,9 +981,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 574F6AE120D94F3700DA9098 /* Build configuration list for PBXNativeTarget "OculusTests" */;
 			buildPhases = (
+				32A14EBF87C250AC4B672E2B /* [CP] Check Pods Manifest.lock */,
 				574F6AD120D94F3700DA9098 /* Sources */,
 				574F6AD220D94F3700DA9098 /* Frameworks */,
 				574F6AD320D94F3700DA9098 /* Resources */,
+				D58FF7EE935311B0391C968C /* [CP] Embed Pods Frameworks */,
+				C710359297104CA1976530F8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,8 +1045,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				574F6ACF20D94F3600DA9098 /* LaunchScreen.storyboard in Resources */,
+				574F6AF020D9552800DA9098 /* Localizable.strings in Resources */,
+				57A485D520E52C2500119F29 /* OculusPreviewGIF.gif in Resources */,
+				57C312F420DEE4AB009920DE /* GoogleService-Info.plist in Resources */,
 				574F6ACC20D94F3600DA9098 /* Assets.xcassets in Resources */,
 				574F6AC720D94F3600DA9098 /* Main.storyboard in Resources */,
+				574F6BB120DC64F900DA9098 /* welcomeVideo.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,15 +1063,185 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		19BF481A1A75E8EBB37502E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Oculus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32A14EBF87C250AC4B672E2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OculusTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6818FC3905B31C1DDE258917 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Oculus/Pods-Oculus-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/gRPC/gRPCCertificates.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/gRPCCertificates.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Oculus/Pods-Oculus-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3B820B0803BA8238AE7FD9D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Oculus/Pods-Oculus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C710359297104CA1976530F8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OculusTests/Pods-OculusTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D58FF7EE935311B0391C968C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OculusTests/Pods-OculusTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		574F6AB520D94F3500DA9098 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				574F6AC420D94F3600DA9098 /* ViewController.m in Sources */,
+				574F6B2E20DA9DC200DA9098 /* EventsCell.m in Sources */,
+				574F6B5020DAFAB000DA9098 /* OCNotification.m in Sources */,
+				57C312E820DD3BD1009920DE /* FacebookButton.m in Sources */,
+				57D9F01120E1D8E300BC8C7A /* OCMediaPlayerView.m in Sources */,
+				574F6B6620DBBAB000DA9098 /* EventsCollectionCell.m in Sources */,
+				574F6BDA20DD0B2200DA9098 /* StoreCategoryHeader.m in Sources */,
+				57A485D720E52D5600119F29 /* README.md in Sources */,
+				574F6B2520D9E42700DA9098 /* OCApp.m in Sources */,
+				57A485CA20E3CFAC00119F29 /* StoreFormatter.m in Sources */,
+				574F6B1220D9750000DA9098 /* SettingsController.m in Sources */,
+				574F6BB420DC852400DA9098 /* SettingsHeadsetButton.m in Sources */,
+				574F6B0920D96BFC00DA9098 /* StoreManager.m in Sources */,
+				574F6AFC20D95F4400DA9098 /* TabBarController.m in Sources */,
+				574F6B3820DAC24D00DA9098 /* FriendsCell.m in Sources */,
+				574F6B5F20DB1F0000DA9098 /* EventDetailScrollView.m in Sources */,
+				574F6B8E20DC26CA00DA9098 /* AppDetailRequirementsFooter.m in Sources */,
+				574F6B7320DBE38200DA9098 /* AppDetailDescriptionCell.m in Sources */,
+				574F6B5820DB161C00DA9098 /* AppDetailMediaHeader.m in Sources */,
+				57C312FF20E00468009920DE /* OCAppSection.m in Sources */,
+				574F6BD420DD07F600DA9098 /* StoreCategoryController.m in Sources */,
+				574F6B5B20DB172000DA9098 /* AppDetailSectionHeader.m in Sources */,
+				574F6B0C20D974D200DA9098 /* EventsController.m in Sources */,
+				574F6BD720DD0A4F00DA9098 /* StoreCategoryCell.m in Sources */,
+				57C312F720DEFB8D009920DE /* SampleDataManager.m in Sources */,
+				574F6AC420D94F3600DA9098 /* StoreController.m in Sources */,
+				574F6B2220D9E04300DA9098 /* StoreDefaultCollectionCell.m in Sources */,
+				574F6B2A20DA9A0000DA9098 /* StoreFeaturedCollectionCell.m in Sources */,
+				574F6B3F20DACFB500DA9098 /* SettingsTableHeader.m in Sources */,
+				57C312EF20DD4EF1009920DE /* SignInView.m in Sources */,
+				574F6BA320DC313C00DA9098 /* AppDetailRatingsReviewsTableCell.m in Sources */,
+				57C312FC20E00114009920DE /* DateManager.m in Sources */,
+				574F6BDE20DD135900DA9098 /* StoreCategoryHeaderCell.m in Sources */,
+				574F6B7F20DBE40400DA9098 /* AppDetailPublisherCell.m in Sources */,
+				574F6B6320DB1F2400DA9098 /* EventDetailController.m in Sources */,
+				57A485BF20E2F7EA00119F29 /* ValidationManager.m in Sources */,
 				574F6AC120D94F3600DA9098 /* AppDelegate.m in Sources */,
+				574F6B9820DC2BA700DA9098 /* AppDetailDefaultHeader.m in Sources */,
+				574F6B4D20DAFA4A00DA9098 /* NotificationsCell.m in Sources */,
+				574F6B4520DAE1D700DA9098 /* SettingsTableFooter.m in Sources */,
+				57C312E520DD3913009920DE /* WelcomeView.m in Sources */,
+				574F6B6D20DBCB5000DA9098 /* AlertsManager.m in Sources */,
+				574F6BAD20DC5FDD00DA9098 /* WelcomeToOculusView.m in Sources */,
+				574F6B8220DBE41E00DA9098 /* AppDetailAdditionalDetailsCell.m in Sources */,
+				574F6AF520D95BE400DA9098 /* NotificationsController.m in Sources */,
+				574F6B1F20D9D8CA00DA9098 /* StoreDefaultCell.m in Sources */,
+				574F6BA620DC4D7D00DA9098 /* AppDetailRatingsReviewsHeader.m in Sources */,
+				574F6B5420DB144900DA9098 /* AppDetailController.m in Sources */,
+				574F6BCE20DC8D1500DA9098 /* WelcomeController.m in Sources */,
+				574F6B4220DAD55900DA9098 /* SettingsCell.m in Sources */,
+				57C312F220DD4FB2009920DE /* OCTextField.m in Sources */,
+				57A485C320E3214000119F29 /* AppDetailExperiencesCell.m in Sources */,
 				574F6ACA20D94F3600DA9098 /* Oculus.xcdatamodeld in Sources */,
+				574F6B9520DC280200DA9098 /* AppDetailRequirementsCollectionCell.m in Sources */,
 				574F6ABE20D94F3600DA9098 /* main.m in Sources */,
+				574F6B3520DAC22F00DA9098 /* FriendsTableHeader.m in Sources */,
+				574F6B1C20D9D8A600DA9098 /* StoreFeaturedCell.m in Sources */,
+				574F6B7920DBE3B900DA9098 /* AppDetailRequirementsCell.m in Sources */,
+				57C3130420E00656009920DE /* EventManager.m in Sources */,
+				574F6B1920D9763700DA9098 /* SettingsManager.m in Sources */,
+				574F6B7620DBE39900DA9098 /* AppDetailSpecsCell.m in Sources */,
+				574F6B3120DAB4BC00DA9098 /* OCEvent.m in Sources */,
+				574F6B7020DBE33400DA9098 /* AppDetailRatingsView.m in Sources */,
+				574F6AFF20D9626C00DA9098 /* WelcomeToOculusController.m in Sources */,
+				574F6B0F20D974E500DA9098 /* FriendsController.m in Sources */,
+				574F6AED20D9533D00DA9098 /* NavigationController.m in Sources */,
+				57C312EC20DD4B26009920DE /* BottomNavigationBar.m in Sources */,
+				574F6B3B20DAC90C00DA9098 /* OCUser.m in Sources */,
+				574F6BAA20DC50E000DA9098 /* AppDetailAdditionalDetailsTableCell.m in Sources */,
+				574F6B7C20DBE3E500DA9098 /* AppDetailRatingsReviewsCell.m in Sources */,
+				574F6BBC20DC8AF600DA9098 /* SignInController.m in Sources */,
+				57E291B020E28921008A3280 /* NotificationsManager.m in Sources */,
+				574F6B4820DAF24200DA9098 /* OCTableSectionHeader.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +1375,7 @@
 		};
 		574F6ADF20D94F3700DA9098 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F24F7B7D04C280A4901559B2 /* Pods-Oculus.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3W4TPJ555T;
@@ -367,6 +1388,7 @@
 		};
 		574F6AE020D94F3700DA9098 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6C05DDEA4B095FCB7A78521 /* Pods-Oculus.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3W4TPJ555T;
@@ -379,6 +1401,7 @@
 		};
 		574F6AE220D94F3700DA9098 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A19623F28F2C7DF13C1F3FBB /* Pods-OculusTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 3W4TPJ555T;
@@ -392,6 +1415,7 @@
 		};
 		574F6AE320D94F3700DA9098 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 476D0A82BA6D2F4D231CF62B /* Pods-OculusTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 3W4TPJ555T;
@@ -422,6 +1446,7 @@
 				574F6AE020D94F3700DA9098 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		574F6AE120D94F3700DA9098 /* Build configuration list for PBXNativeTarget "OculusTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +1455,7 @@
 				574F6AE320D94F3700DA9098 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

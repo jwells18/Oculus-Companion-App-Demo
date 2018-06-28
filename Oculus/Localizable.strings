@@ -1,0 +1,188 @@
+/* 
+  Localizable.strings
+  Oculus
+
+  Created by Justin Wells on 6/19/18.
+  Copyright © 2018 SynergyLabs. All rights reserved.
+*/
+
+//Welcome
+"welcomeTitle" = "Welcome to Oculus";
+"welcomeSubTitle1" = "Don't have a headset?";
+"welcomeSubTitle2" = "Explore Headsets";
+"welcomeSubTitle3" = "or";
+"welcomeSubTitle4" = "Explore the App";
+"startNow" = "Start Now";
+"headsetsURL" = "https://www.oculus.com/";
+"continueWithFacebook" = "Continue with Facebook";
+"agreementTitle1" = "By signing up, you agree to the Oculus";
+"agreementTitle2" = "Terms of Service";
+"agreementTitle3" = "and";
+"agreementTitle4" = "Privacy Policy";
+"accountTitle1" = "Use an Oculus account instead?";
+"accountTitle2" = "Sign In";
+"accountTitle3" = "or";
+"accountTitle4" = "Register";
+"termsOfServiceURL" = "https://www.oculus.com/legal/terms-of-service/";
+"privacyPolicyURL" = "https://www.oculus.com/legal/privacy-policy/";
+"email" = "Email";
+"emailPlaceholder" = "name@example.com";
+"password" = "Password";
+"forgotPassword" = "Forgot password?";
+"resetPassword" = "Reset Password";
+"signInTitle" = "Sign In To Oculus";
+"back" = "Back";
+"signIn" = "Sign In";
+
+//Store
+"store" = "Store";
+"seeAll" = "See All";
+"search" = "Search";
+"ratingsAndReviews" = "Ratings & Reviews";
+"requires" = "Requires";
+"additionalDetails" = "Additional Details";
+"versionNotes" = "Version Notes";
+"developer" = "Developer";
+"permissions" = "Permissions";
+"storageDefaultSize" = "MB";
+"internetIsRequired" = "Internet is required";
+"internetIsNotRequired" = "Internet is not required";
+"platform" = "Platform";
+"free" = "Free";
+
+//Additional Details
+"gameModes" = "Game Modes";
+"category" = "Category";
+"genres" = "Genres";
+"released" = "Released";
+"languages" = "Languages";
+"termsOfService" = "Terms of Service";
+"privacyPolicy" = "Privacy Policy";
+"experience" = "Experience";
+//Languages
+"english" = "English";
+"chineseChina" = "Chinese (China)";
+"chineseTaiwan" = "Chinese (Taiwan)";
+"german" = "German";
+"spanishMexico" = "Mexico";
+"frenchFrance" = "French (France)";
+"italian" = "Italian";
+"japanese" = "Japanese";
+"korean" = "Korean";
+"spanishSpain" = "Spanish (Spain)";
+"portuguesePortugal" = "Portuguese (Portugual)";
+"hebrew" = "Hebrew";
+"dutch" = "Dutch";
+//Game Modes
+"singleUser" = "Single User";
+"multiplayer" = "Multiplayer";
+"co-op" = "Co-op";
+//Genre
+"exploration" = "Exploration";
+"racing" = "Racing";
+"simulation" = "Simulation";
+"action" = "Action";
+"casual" = "Casual";
+"rollerCoaster" = "Roller Coaster";
+"adventure" = "Adventure";
+"exploration" = "Exploration";
+"narrative" = "Narrative";
+"dinosaurs" = "Dinosaurs";
+"movie" = "Movie";
+"shooter" = "Shooter";
+"documentaryAndHistory" = "Documentary & History";
+"educational" = "Educational";
+//Requirements
+"oculusGoController" = "Oculus Go Controller";
+//Refund Policy
+"https://www.oculus.com/legal/rift-content-refund-policy/" = "Oculus Refund Policy";
+//ESRB Rating
+"everyone" = "Everyone";
+"everyone10+" = "Everyone 10+";
+"teen" = "Teen";
+//ESRB Rating Details
+"usersInteract" = "Users Interact";
+"digitalPurchases" = "Digital Purchases";
+"language" = "Language";
+"fantasyViolence" = "Fantasy Violence";
+"mildViolence" = "Mild Violence";
+//Platform
+"oculusGo" = "Oculus Go";
+//Intensity
+"comfortable" = "Comfortable";
+"moderate" = "Comfort: Moderate";
+"intense" = "Intense";
+//Terms Policy
+"https://forcefieldvr.com/terms-of-service" = "https://forcefieldvr.com/terms-of-service";
+//Privacy Policy
+"https://forcefieldvr.com/privacy-policy" = "https://forcefieldvr.com/privacy-policy";
+//Store Categories
+"oculusSummerSale" = "Oculus Summer Sale";
+"oculusPacks" = "Oculus Packs";
+"topSelling" = "Top Selling";
+"topFree" = "Top Free";
+"onSale" = "On Sale";
+"newReleases" = "New Releases";
+"360Experiences" = "360 Experiences";
+"multiplayerAndSocial" = "Multiplayer & Social";
+"movies" = "Movies";
+"entertainment" = "Entertainment";
+"horrorAndMystery" = "Horror & Mystery";
+"actionAndAdventure" = "Action & Adventure";
+"racingAndFlying" = "Racing & Flying";
+"simulators" = "Simulators";
+"strategy" = "Strategy";
+"sports" = "Sports";
+"games" = "Games";
+"apps" = "Apps";
+"education" = "Education";
+"music" = "Music";
+"travel" = "Travel";
+"browseAll" = "Browse All";
+
+//Events
+"events" = "Events";
+"upcomingEvents" = "Upcoming Events";
+"myEvents" = "My Events";
+"readMore" = "Read More";
+"interestedCount" = "people interested.";
+"interested" = "Interested";
+
+//Friends
+"friends" = "Friends";
+"addFriends" = "Add friends";
+"totalFriends" = "Total friends";
+
+//Settings
+"settings" = "Settings";
+"pairNewHeadset" = "Pair New Headset";
+"account" = "Account";
+"payment" = "Payment";
+"advanced" = "Advanced";
+"linkedAccounts" = "Linked Accounts";
+"cameraRollAccess" = "Camera Roll Access";
+"changeOculusPassword" = "Change Oculus Password";
+"resetOculusPin" = "Reset Oculus PIN";
+"privacySettings" = "Privacy Settings";
+"notifications" = "Notifications";
+"paymentMethods" = "Payment Methods";
+"purchaseHistory" = "Purchase History";
+"legal" = "Legal";
+"healthAndSafety" = "Health & Safery";
+"help" = "Help";
+"version" = "Version";
+"logout" = "Log Out";
+"logoutTitle" = "Are you sure you want to log out?";
+"logoutMessage" = "This will not log you out of your headset. If you are giving your headset to someone else then factory reset your headset in Settings.";
+"cancel" = "Cancel";
+
+//Notifications
+"notifications" = "Notifications";
+"markAsUnread" = "Mark as Unread";
+"unsubscribe" = "Unsubscribe";
+
+//Alerts
+"sorry" = "Sorry";
+"featureUnavailableMessage" = "This feature is unavailable";
+"ok" = "OK";
+"error" = "Error";

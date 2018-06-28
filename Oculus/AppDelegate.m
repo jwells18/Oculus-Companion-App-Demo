@@ -7,8 +7,20 @@
 //
 
 #import "AppDelegate.h"
+@import Firebase;
+#import "NavigationController.h"
+#import "TabBarController.h"
+#import "WelcomeToOculusController.h"
+#import "StoreController.h"
+#import "EventsController.h"
+#import "FriendsController.h"
+#import "SettingsController.h"
+#import "WelcomeController.h"
+#import "Constants.h"
 
 @interface AppDelegate ()
+
+@property (strong, nonatomic) NSObject *authHandle;
 
 @end
 
@@ -16,8 +28,19 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
-    return YES;
+    
+    //Setup Firebase
+    [FIRApp configure];
+    
+    //Set Initial ViewController
+    if ([[FIRAuth auth]  currentUser] != nil){
+        [self setupTabVC];
+    }
+    else{
+        [self setupWelcomeVC];
+    }
+    
+    return true;
 }
 
 
@@ -47,6 +70,43 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     // Saves changes in the application's managed object context before the application terminates.
     [self saveContext];
+}
+
+#pragma mark - Setup Controllers
+
+- (void)setupWelcomeVC{
+    WelcomeController *welcomeVC = [[WelcomeController alloc] init];
+    UINavigationController* navVC = [[UINavigationController alloc] initWithRootViewController:welcomeVC];
+    self.window.rootViewController = navVC;
+}
+
+- (void)setupTabVC{
+    //Setup Navigation Controllers for Tabbar Controller
+    StoreController *storeVC = [[StoreController alloc] init];
+    EventsController *eventsVC = [[EventsController alloc] init];
+    FriendsController *friendsVC = [[FriendsController alloc] init];
+    SettingsController *settingsVC = [[SettingsController alloc] init];
+    
+    NavigationController *navVC1 = [[NavigationController alloc] initWithRootViewController: storeVC];
+    NavigationController *navVC2 = [[NavigationController alloc] initWithRootViewController: eventsVC];
+    NavigationController *navVC3 = [[NavigationController alloc] initWithRootViewController: friendsVC];
+    NavigationController *navVC4 = [[NavigationController alloc] initWithRootViewController: settingsVC];
+    
+    //Setup Tabbar Controller
+    TabBarController *tabBarController = [[TabBarController alloc] init];
+    tabBarController.viewControllers = @[navVC1, navVC2, navVC3, navVC4];
+    
+    //Set Tabbar Controller as Root Controller
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.alpha = 0;
+    self.window.rootViewController = tabBarController;
+    [self.window makeKeyAndVisible];
+    
+    //Present WelcomeToOculusController
+    WelcomeToOculusController *welcomeVC = [[WelcomeToOculusController alloc] init];
+    [self.window.rootViewController presentViewController:welcomeVC animated:false completion:^{
+        self.window.alpha = 1;
+    }];
 }
 
 
