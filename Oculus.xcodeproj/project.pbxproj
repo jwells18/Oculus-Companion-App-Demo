@@ -75,7 +75,6 @@
 		57A485C320E3214000119F29 /* AppDetailExperiencesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A485C220E3214000119F29 /* AppDetailExperiencesCell.m */; };
 		57A485CA20E3CFAC00119F29 /* StoreFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A485C920E3CFAC00119F29 /* StoreFormatter.m */; };
 		57A485D520E52C2500119F29 /* OculusPreviewGIF.gif in Resources */ = {isa = PBXBuildFile; fileRef = 57A485D420E52C2500119F29 /* OculusPreviewGIF.gif */; };
-		57A485D720E52D5600119F29 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 57A485D620E52D5600119F29 /* README.md */; };
 		57C312E520DD3913009920DE /* WelcomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C312E420DD3913009920DE /* WelcomeView.m */; };
 		57C312E820DD3BD1009920DE /* FacebookButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C312E720DD3BD1009920DE /* FacebookButton.m */; };
 		57C312EC20DD4B26009920DE /* BottomNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 57C312EB20DD4B26009920DE /* BottomNavigationBar.m */; };
@@ -1176,7 +1175,6 @@
 				57D9F01120E1D8E300BC8C7A /* OCMediaPlayerView.m in Sources */,
 				574F6B6620DBBAB000DA9098 /* EventsCollectionCell.m in Sources */,
 				574F6BDA20DD0B2200DA9098 /* StoreCategoryHeader.m in Sources */,
-				57A485D720E52D5600119F29 /* README.md in Sources */,
 				574F6B2520D9E42700DA9098 /* OCApp.m in Sources */,
 				57A485CA20E3CFAC00119F29 /* StoreFormatter.m in Sources */,
 				574F6B1220D9750000DA9098 /* SettingsController.m in Sources */,
